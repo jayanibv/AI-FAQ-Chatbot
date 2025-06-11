@@ -39,9 +39,9 @@ AI-FAQ-Chatbot/
 
 ├── index.html # For chatbot deployment
 
-├── chatbot_export.zip # Dialogflow agent export
+├── InternshipFAQBot.zip # Dialogflow agent export
 
-├── intents/ # Individual intent files
+├── AI FAQ Intents/ # Individual intent files
 
 ## 🚀 Deployment Guide
 
