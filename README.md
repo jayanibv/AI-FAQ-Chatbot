@@ -34,9 +34,13 @@ Live Demo 👉 https://github.com/jayanibv/AI-FAQ-Chatbot/blob/main/index.html
 ## 📦 File Structure
 
 AI-FAQ-Chatbot/
+
 ├── README.md
+
 ├── index.html # For chatbot deployment
+
 ├── chatbot_export.zip # Dialogflow agent export
+
 ├── intents/ # Individual intent files
 
 ## 🚀 Deployment Guide
