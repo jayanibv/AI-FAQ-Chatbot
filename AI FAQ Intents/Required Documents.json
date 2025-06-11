@@ -1,0 +1,79 @@
+{
+  "id": "ef9a8f86-c697-47fe-9a16-e0c9838afdd7",
+  "name": "Required Documents",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "You’ll need to submit your resume, academic transcripts, and a government-issued ID proof.",
+            "To apply, just share your resume along with your academic records and a valid ID. Don’t worry — the steps are easy, and we’re here to support you throughout!",
+            "Required for application:\n\n✅ Resume\n\n✅ Academic transcripts\n\n✅ Government-issued ID\n\nOnce submitted, you’ll be guided to the next step automatically."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Is a resume mandatory?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "95bae944-08aa-405c-a1e7-f7a997823221",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Do I need to submit my marksheets?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "cf07fd87-b560-412b-b644-ed4a8836320b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What documents are needed?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "51b5ab71-b26c-44e3-9fad-c93ece86c15f",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": true
+}

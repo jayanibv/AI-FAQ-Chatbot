@@ -1,0 +1,80 @@
+{
+  "id": "5c65cedd-f430-465c-b4fe-5804f7e912a4",
+  "name": "Company Info",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Our organization is committed to driving innovation through AI, data science, and digital transformation. We believe in building intelligent solutions that make a global impact.",
+            "We are a dynamic tech company with a focus on AI-driven products and services. Headquartered in Bengaluru, we also collaborate with clients and partners across the globe.",
+            "We’re a fast-growing team passionate about solving real-world problems using cutting-edge AI and tech. Our goal? To empower the next generation of digital innovators.",
+            "We are a leading tech company focused on AI solutions and digital transformation. Our headquarters are located in Bengaluru, India."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Where is your office located?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "3544c56c-bd68-465c-9662-7796032e40b8",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What does your company do?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "08038c9b-f444-4f5c-a481-b5cd8a295390",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Tell me about the organization.",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f5c55998-5eef-4507-82bf-b37c298ee859",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": true
+}

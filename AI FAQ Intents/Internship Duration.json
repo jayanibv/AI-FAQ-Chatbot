@@ -1,0 +1,101 @@
+{
+  "id": "68c02545-e2a7-4e24-b6d5-9837f47b16c9",
+  "name": "Internship Duration",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "duration",
+          "dataType": "@sys.duration",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$duration",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Our internships typically last for 8 to 12 weeks, depending on the department and your availability."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Is it a ",
+          "userDefined": false
+        },
+        {
+          "text": "3-month",
+          "userDefined": false,
+          "alias": "duration",
+          "meta": "@sys.duration"
+        },
+        {
+          "text": " internship?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "4069e4c3-f7ff-420f-93fa-e364478d03d7",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What's the internship duration?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "417e2afe-cc9a-4a6a-a87f-3a81b8ddff75",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "How long is the internship?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a67ef2ac-1d80-44af-ae22-62bbcedc8be2",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": true
+}

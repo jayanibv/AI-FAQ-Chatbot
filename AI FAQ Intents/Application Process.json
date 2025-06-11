@@ -1,0 +1,82 @@
+{
+  "id": "816732ae-3b24-40ec-8c50-78a22788c7c9",
+  "name": "Application Process",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "You can apply for internships through our official portal at https://github.com/jayanibv/AI-FAQ-Chatbot. The process includes registration, uploading your resume, and completing a short assessment.",
+            "Just head over to our portal and fill out the form — it’s simple and quick! You’ll need your resume and a few basic details.",
+            "Sure! Here's how to apply:\n\n1. Visit our internship portal\n\n2. Register with your email\n\n3. Upload your resume\n\n4. Take a short eligibility quiz\nYou’ll get updates via email.",
+            "Internship applications are open at https://github.com/jayanibv/AI-FAQ-Chatbot. Register, upload your resume, and you’re good to go!",
+            "We’re always excited to welcome new interns! Apply through our official site — just submit your resume and complete the application steps. Best of luck!",
+            "Applications are accepted via our official platform. You'll need to register, provide basic academic info, and upload your CV. Details are shared with selected candidates."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Where do I submit my application?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "cedb54ea-400a-4521-b44d-0f2e8d8ac7b6",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What is the application process?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "b5671406-0ef6-4aa8-a2c0-3e74ed6b093e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "How can I apply for an internship?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a5dfb5cb-3956-4155-b9ad-ca0c78ec1d00",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": true
+}

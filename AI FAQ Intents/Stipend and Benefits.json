@@ -1,0 +1,80 @@
+{
+  "id": "b21aea00-c87c-457d-adfa-d69abf2b62e3",
+  "name": "Stipend and Benefits",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Yes, we offer a monthly stipend and a certificate of completion. Some roles also include mentorship and full-time offer opportunities.",
+            "Absolutely! We offer a monthly stipend, a certificate of completion, and in some cases, mentorship from industry experts. Outstanding interns may even receive full-time opportunities.",
+            "Interns receive a stipend for their contributions, along with a formal certificate upon successful completion. Select roles may also include guided mentorship and potential placement offers.",
+            "Yes, and more! Apart from the stipend and completion certificate, top-performing interns are often fast-tracked for full-time positions. It’s a great opportunity to grow and shine!"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Are there any benefits?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c9c8e219-a0a9-4e0c-b5c7-525147169aea",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Do you offer a stipend?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ccd931c3-2836-47e4-b5a3-d5d1ddcd5839",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Is the internship paid?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "497efc79-6dd6-4fb4-acb4-58086eef0873",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": true
+}
