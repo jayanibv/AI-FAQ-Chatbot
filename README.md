@@ -4,8 +4,7 @@
 
 This is a smart AI-powered FAQ chatbot built using **Google Dialogflow**. It answers common questions about internships, including application processes, eligibility, company information, stipend, and more.
 
-Live Demo 👉 [https://yourusername.github.io/AI-FAQ-Chatbot/](https://yourusername.github.io/AI-FAQ-Chatbot/)  
-(Replace with your actual GitHub Pages link after deployment)
+Live Demo 👉 https://github.com/jayanibv/AI-FAQ-Chatbot/index.html
 
 ## 💡 Features
 
@@ -18,7 +17,7 @@ Live Demo 👉 [https://yourusername.github.io/AI-FAQ-Chatbot/](https://youruser
 ## 🛠️ Technologies Used
 
 - Dialogflow (Google Cloud NLP)
-- HTML5 + JavaScript (for website integration)
+- HTML5 (for website integration)
 - GitHub Pages (for live deployment)
 
 ## 🧩 Intents Covered
